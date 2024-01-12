@@ -3,11 +3,11 @@ package main
 import (
 	"encoding/csv"
 	"fmt"
+	"github.com/gocolly/colly/v2"
+	"github.com/gorilla/mux"
 	"log"
 	"net/http"
 	"os"
-	"github.com/gocolly/colly/v2"
-	"github.com/gorilla/mux"
 )
 
 // scrapeCryptocurrencies scrapes cryptocurrency data and writes it to a CSV file.
